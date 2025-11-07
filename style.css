@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #252525;
+    color: white;
+    font-family: "ZCOOL KuaiLe", sans-serif;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 30px;
+    border-bottom: 1px solid #333;
+}
+
+.sign-in{
+    height: 25px;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+
+.sign-in a {
+    color: white;
+    text-decoration: none;
+    margin-right: 8px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    border-right: 1px solid #333;
+    padding-right: 15px;
+    padding-top: 11px;
+}
+
+.search-bar {
+    border-left: 1px solid #333;
+    padding-left: 15px;
+}
+
+.sign-in a:hover {
+    color: crimson;
+}
+
+.search-bar input {
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 80%;
+}
+
+.bottom-bar {
+    text-align: center;
+    padding: 15px 0 15px 0;
+    border-bottom: 1px solid #333;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: crimson;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: crimson;
+}
+
+.hero {
+    background-color: pink;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero>h2{
+    font-family: Shojumaru;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 45px;
+    line-height: 119%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 6.5%;
+}
+
+img{
+    border: 1px solid rgba(151, 151, 151, 0.258);
+}
+
+.comic-card {
+    width: 20%;
+    padding-top: 30%;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.comic-title{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding: 5px 0;
+    left: 1px;
+    font-size: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(227, 30, 30, 0.793);
+}
+
+.comic-time{
+    width: 100%;
+    position: absolute;
+    top: 405px;
+    text-align: center;
+    padding: 5px 0;
+    left: 1px;
+    font-size: 80%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(89, 86, 86, 0.916);
+}
+
+.comic-card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.comic-card:hover {
+    transform: scale(1.05);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+input, textarea {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.comic{
+    width: 50%;
+    height: 750px;
+    margin: 40px auto;
+    padding: 10px;
+    background: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
