@@ -2,12 +2,12 @@
 
 A front-end web project designed to present original comic content under the brand **Charismatica**, featuring a responsive homepage, comic reader, multi-page navigation, and a modern UI modeled after professional comic platforms.
 
-##**Project Link**
+## **Project Link**
 ```
 https://6910e4e610ffe599364ad08c--gleeful-torrone-b6458a.netlify.app/
 ```
 ---
-## **📌 Note on Commit History**
+### **📌 Note on Commit History**
 
 The project was primarily developed locally. I encountered a few delays related to file size and intermittent internet stability, which affected the timing of when I was able to push updates. Although I initially planned to commit more frequently, additional incremental commits would not have added meaningful value in this context, since the work was completed independently rather than collaboratively. Once the issues were resolved, I pushed the completed set of changes together.
 ---
